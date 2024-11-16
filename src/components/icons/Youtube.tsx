@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Youtube = ({ className }: { className?: string }) => {
   return (
     <span>

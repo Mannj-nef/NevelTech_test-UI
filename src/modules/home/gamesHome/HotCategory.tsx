@@ -27,11 +27,11 @@ const HotCategory = () => {
       </div>
 
       <div aria-label='content' className=' mt-[30px] '>
-        <div className='flex gap-5 justify-between flex-col lg:flex-row h-[292px] overflow-hidden lg:h-auto'>
+        <div className='flex gap-5 justify-between h-[292px] overflow-x-hidden lg:h-auto'>
           {HOT_CATEGORY.map((item) => (
             <div
               key={item.id}
-              className='w-screen lg:w-auto flex-1 flex gap-5 lg:gap-[30px] bg-gary0D p-5 rounded-[28px]'
+              className='w-full flex-shrink-0 md:flex-1 md:w-auto flex gap-5 lg:gap-[30px] bg-gary0D p-5 rounded-[28px]'
             >
               <div className='flex flex-1 flex-col gap-[15px] lg:gap-[30px]'>
                 <div

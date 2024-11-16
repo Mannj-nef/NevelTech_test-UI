@@ -21,7 +21,7 @@ const Navigation = () => {
           </NavLink>
         </li>
       )),
-    [WEB_MAP]
+    [WEB_MAP, location.pathname]
   )
 
   return <nav className='hidden lg:flex items-center gap-10 h-full'>{navList}</nav>
