@@ -27,7 +27,7 @@ const HotCategory = () => {
       </div>
 
       <div aria-label='content' className=' mt-[30px] '>
-        <div className='flex gap-5 justify-between h-[292px] overflow-x-hidden lg:h-auto'>
+        <div className='flex gap-5 justify-between overflow-x-hidden lg:h-auto'>
           {HOT_CATEGORY.map((item) => (
             <div
               key={item.id}
@@ -35,12 +35,12 @@ const HotCategory = () => {
             >
               <div className='flex flex-1 flex-col gap-[15px] lg:gap-[30px]'>
                 <div
-                  className=' rounded-[28px] cursor-pointer p-5 text-lightColor h-[167px] lg:h-[210px] gap-[11px] lg:gap-[15px] flex flex-col'
+                  className='rounded-[28px] cursor-pointer p-5 text-lightColor h-[167px] lg:h-[210px] gap-[11px] lg:gap-[15px] flex flex-col'
                   style={{ background: item.primaryColor }}
                 >
                   {icon(item.title)}
-                  <div className='text-[21px]'>{item.title}</div>
-                  <div className='line-clamp-3 opacity-50 text-[13px]'>{item.desc}</div>
+                  <div className='text-[17px] lg:text-[21px]'>{item.title}</div>
+                  <div className='line-clamp-3 opacity-50 text-[10px] lg:text-[13px]'>{item.desc}</div>
                 </div>
 
                 <div className='flex gap-5 lg:gap-[30px] '>

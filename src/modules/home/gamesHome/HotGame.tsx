@@ -40,13 +40,13 @@ const HotGame = () => {
 
                   <div>
                     <p className='text-[16px] font-semibold text-lightColor'>{HOST_GAME_MOBILE.title}</p>
-                    <p className='text-[12px] text-lightColor opacity-60'>{HOST_GAME_MOBILE.desc}</p>
+                    <p className='text-[12px] mt-[3px] text-lightColor opacity-60'>{HOST_GAME_MOBILE.desc}</p>
                   </div>
                 </div>
 
-                <div className='mt-[26px] flex gap-[38px]'>
+                <div className='mt-[26px] flex gap-[38px] justify-between '>
                   {HOST_GAME_MOBILE.more.map((item) => (
-                    <div key={item.id} className='flex flex-col gap-1 items-center text-lightColor'>
+                    <div key={item.id} className='flex flex-col items-start gap-1  text-lightColor'>
                       <span className='text-sm'>{item.name}</span>
                       <span className='text-xs opacity-60'>{item.desc}</span>
                     </div>
