@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-normal   leading-normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  ul,
+  li,
+  ol {
+    @apply list-none p-0;
+  }
+
+  img {
+    @apply w-full h-full;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-[25px];
+    max-width: 1400px;
+  }
+}
