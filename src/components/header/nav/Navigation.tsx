@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom'
 import { useMemo } from 'react'
-import { WEB_MAP } from '../../../routers/endpoint'
+import { WEB_MAP } from '~/routers/endpoint'
 
 const Navigation = () => {
   const location = useLocation()

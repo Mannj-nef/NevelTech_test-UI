@@ -1,6 +1,5 @@
 import { LogoIcon } from '../icons'
-import { Navigation } from './nav'
-import NavigateMobile from './nav/NavigateMobile'
+import { Navigation, NavigateMobile } from './nav'
 
 const Header = () => {
   return (
